@@ -1,4 +1,4 @@
-package com.pulse.stateutil
+package com.puls.stateutil
 
 sealed class Result<out T> {
     data class Success<out T >(val data: T) : Result<T>()
